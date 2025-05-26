@@ -1,8 +1,11 @@
-# Jogo da velha #
+# Jogo da Velha
 
-Esse código implementa o jogo da velha com:
-Entrada de jogadores,
-Exibição do tabuleiro,
-Verificação de vitória/empate,
-Escolha aleatória de quem começa,
-Loop para jogar novamente.
+## Descrição
+Implementação simples do jogo da velha (tic-tac-toe) em Python para dois jogadores no terminal.
+
+## Funcionalidades
+- Entrada de jogadores
+- Exibição do tabuleiro
+- Verificação de vitória ou empate
+- Escolha aleatória de quem começa
+- Loop para jogar novamente
