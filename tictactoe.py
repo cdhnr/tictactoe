@@ -1,4 +1,12 @@
+import random
+
 # Exibe um tabuleiro. #
+try:
+    from IPython.display import clear_output
+except ImportError:
+    def clear_output():
+        pass
+
 def display_board(board):
 
     clear_output()
