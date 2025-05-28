@@ -39,7 +39,7 @@ def player_input():
 def place_marker(board, marker, position):
     board[position] = marker
 
-# Verifica se o jogador venceu o jogo. Chega todas as linhas, colunas e diagonais possíveis. #
+# Verifica se o jogador venceu o jogo. Checa todas as linhas, colunas e diagonais possíveis. #
 def win_check(board, mark):
     return ((board[7] == mark and board[8] == mark and board[9] == mark) or 
     (board[4] == mark and board[5] == mark and board[6] == mark) or
